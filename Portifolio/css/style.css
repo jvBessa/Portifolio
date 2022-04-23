@@ -3,7 +3,13 @@
     --drkGray: #1f2833;
     --lghtGray: #c5c6c7;
     --teal: #66fcf1;
-    --drkTeal: #45a29e;
+    --drkTeal: #45a29e; 
+    /* --drkGreen: #61892f;
+    --lghtGreen: #86c232;
+    --drkGray: #474b4f;
+    --lghtGray: #6b6e70;
+    --black: #222629; */
+    --
     --font-size: 1.3rem;
     --mono: "Oxygen mono", monospace;
     --sans: Oxygen, sans-serif;
@@ -235,6 +241,7 @@
   footer{
     text-align: center;
     padding: 4rem 0;
+    background-color: var(--drkGray);
   }
   footer ul{
     list-style-type: none;
@@ -249,4 +256,7 @@
   footer a:hover,
   footer [class*="fa-"]:hover{
     color: var(--drkTeal);
+  }
+  .aboutme-footer{
+    background-color: var(--black);
   }
